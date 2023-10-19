@@ -1,9 +1,10 @@
 import React from "react";
+import Todo from "./Todo";
 
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="p-4 flex items-center justify-center">
+      <Todo />
     </div>
   );
 }
